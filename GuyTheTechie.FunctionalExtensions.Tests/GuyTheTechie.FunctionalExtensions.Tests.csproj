@@ -14,11 +14,14 @@
 		<PackageReference Include="FluentAssertions" Version="6.11.0" />
 		<PackageReference Include="FluentAssertions.LanguageExt" Version="0.4.0" />
 		<PackageReference Include="FsCheck.NUnit" Version="3.0.0-rc1" />
-		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0-preview.7.23375.6" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0-rc.1.23419.4" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0-preview-23424-02" />
 		<PackageReference Include="NUnit" Version="3.13.3" />
 		<PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
-		<PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+		<PackageReference Include="NUnit.Analyzers" Version="3.7.0">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
 		<PackageReference Include="coverlet.collector" Version="6.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
